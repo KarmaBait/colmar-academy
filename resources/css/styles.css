@@ -167,6 +167,7 @@ span {
 .left-practice-section {
     width: 60%;
     margin: 0 1.5rem 0 1.5rem;
+    color: rgb(96, 95, 95);
 }
 
 
@@ -178,36 +179,38 @@ span {
 
 .left-practice-section p {
     margin-top: 2rem;
+
 }
 
 .right-practice-section {
     width: 40%;
     border-left: 1px solid #d3d3d3;
+    color: rgb(96, 95, 95);
 }
 
-.orientation-card {
+.info-card {
     display: flex;
     border-top: 1px solid #d3d3d3;
     border-bottom: 1px solid #d3d3d3;
     align-items: center;
 }
 
-.left-orientation-card {
+.left-info-card {
     width: 35%;
     margin: 1rem;
 }
 
-.left-orientation-card img {
+.left-info-card img {
     width: 100%;
     height: auto;
 }
 
-.right-orientation-card p{
+.right-info-card p{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
-.right-orientation-card a {
+.right-info-card a {
     color: rgb(50, 115, 136);
     font-weight: 600;
     text-decoration: none;
