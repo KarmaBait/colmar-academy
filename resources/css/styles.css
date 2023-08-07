@@ -125,6 +125,12 @@ main {
 }
 
 .right-learn-section a p {
-
+    font-size: 1.25rem;
+    border-radius: 5px;
     background-color: rgb(95, 95, 95);
+    transition-duration: 400ms;
+}
+
+.right-learn-section a p:hover {
+    background-color: #808080;
 }
