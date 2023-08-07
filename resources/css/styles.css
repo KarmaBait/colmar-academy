@@ -85,6 +85,15 @@ main {
     margin-top: 4rem;
 }
 
+main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+span {
+    font-weight: bold;
+}
+
 /* Learn section */
 .learn-section {
     background-color: #d3d3d3;
@@ -99,16 +108,11 @@ main {
 
 .left-learn-section img {
     width: 100%;
+    height: auto;
 }
 
 .right-learn-section {
     color: rgb(96, 95, 95);
-}
-
-
-.right-learn-section h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
 }
 
 .right-learn-section p {
@@ -134,3 +138,78 @@ main {
 .right-learn-section a p:hover {
     background-color: #808080;
 }
+
+@media only screen and (max-width: 785px) {
+    .learn-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-learn-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .right-learn-section {
+        margin: 2rem 1rem;
+        min-height: 8.4375rem;
+        text-align: left;
+    }
+}
+
+/* Practice Section */
+.practice-section {
+    background-color: #fff;
+    margin: 2rem 0 2rem;
+    display: flex;
+}
+
+.left-practice-section {
+    width: 60%;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+
+.left-practice-section img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.left-practice-section p {
+    margin-top: 2rem;
+}
+
+.right-practice-section {
+    width: 40%;
+    border-left: 1px solid #d3d3d3;
+}
+
+.orientation-card {
+    display: flex;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    align-items: center;
+}
+
+.left-orientation-card {
+    width: 35%;
+    margin: 1rem;
+}
+
+.left-orientation-card img {
+    width: 100%;
+    height: auto;
+}
+
+.right-orientation-card p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.right-orientation-card a {
+    color: rgb(50, 115, 136);
+    font-weight: 600;
+    text-decoration: none;
+}
+
