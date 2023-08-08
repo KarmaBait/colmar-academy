@@ -454,6 +454,29 @@ span {
     .thesis-section-mobile p {
         margin: 1rem 1.5rem 1rem;
     }
+
+    .desktop-footer {
+        display: none;
+    }
 }
 
+footer {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1.5rem;
+    height: 3.5rem;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links p,
+.footer-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #000;
+    
+}
 
