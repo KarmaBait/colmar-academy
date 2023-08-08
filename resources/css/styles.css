@@ -151,14 +151,21 @@ span {
     }
 
     .right-learn-section {
-        margin: 2rem 1rem;
+        margin: 2rem 1rem 2rem 1rem;
         min-height: 8.4375rem;
         text-align: left;
+        width: 100%;
+        padding: 0 1rem 0 1rem; 
+        min-width: 410px;
     }
 }
 
 /* Practice Section */
-.practice-section {
+.practice-section-mobile {
+    display: none;
+}
+
+.practice-section-desktop {
     background-color: #fff;
     margin: 2rem 0 2rem;
     display: flex;
@@ -214,5 +221,50 @@ span {
     color: rgb(50, 115, 136);
     font-weight: 600;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 785px) {
+    .practice-section-desktop {
+        display: none;
+    }
+
+    .practice-section-mobile {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 1rem 2rem 1rem;
+        color: rgb(96, 95, 95);
+    }
+
+    .info-card-mobile {
+        margin-bottom: 4rem;
+    }
+
+    .info-card-mobile img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info-card-mobile-text {
+        margin-left: 1rem;
+    }
+
+    .info-card-mobile-text h2{
+        margin-top: 2rem;
+    }
+
+    .info-card-mobile-text p{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-card-mobile-text a {
+        color: rgb(50, 115, 136);
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    #last-info-card-mobile {
+        margin-bottom: 0;
+    }
 }
 
