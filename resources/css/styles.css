@@ -273,6 +273,10 @@ span {
 }
 
 /* Start Learning Section*/
+.start-learning-section-mobile {
+    display: none;
+}
+
 .start-learning-section-desktop {
     background-color: #cadbec;
     padding: 2rem 4.5rem;
@@ -281,6 +285,7 @@ span {
 
 .headline-start-learning h2{
     text-align: center;
+    color: rgb(96, 95, 95);
 }
 
 .card-container {
@@ -309,4 +314,40 @@ span {
 
 .lesson-content p {
     margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 785px) {
+    .start-learning-section-desktop {
+        display: none;
+    }
+
+    .start-learning-section-mobile {
+        display: block;
+        padding: 2rem 1rem;
+        border-top: 1px solid #d3d3d3;
+    }
+
+    .start-learning-section-mobile h1 {
+        text-align: center;
+        color: rgb(96, 95, 95);
+    }
+
+    .card-container-mobile {
+        margin: 1rem 0 2rem;
+        color: rgb(96, 95, 95);
+    }
+
+    .card-container-mobile h2 {
+        padding: 1rem 1rem 1.5rem;
+        background-color: #d3d3d3;
+        border-radius: 5px;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-container-mobile h2:hover {
+        background-color: #a9a9a9;
+        transition-duration: 400ms;
+        cursor: pointer;
+    }
 }
