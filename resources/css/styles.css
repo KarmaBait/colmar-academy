@@ -283,7 +283,7 @@ span {
 
 }
 
-.headline-start-learning h2{
+.headline-start-learning h1{
     text-align: center;
     color: rgb(96, 95, 95);
 }
@@ -351,3 +351,79 @@ span {
         cursor: pointer;
     }
 }
+
+/* Thesis section */
+.thesis-section-desktop {
+    padding: 2rem 0 2rem 1.5rem;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.thesis-section-desktop h1 {
+    text-align: center;
+    color: rgb(96, 95, 95);
+}
+
+.thesis-section-content {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.thesis-left {
+    width: 60%;
+    color: rgb(96, 95, 95);
+    margin-right: 1.5rem;
+
+}
+
+.thesis-left video {
+    width: 100%;
+    height: auto;
+}
+
+.thesis-left-content {
+    margin-top: 1.5rem;
+}
+
+.thesis-left-content p {
+    margin-top: 0.5rem;
+}
+
+.thesis-right {
+    width: 40%;
+}
+
+.thesis-card {
+    display: flex;
+    align-items: center;
+    color:rgb(96, 95, 95);
+}
+
+#card-fisma {
+    background-color: #d3d3d3;
+}
+
+#card-nowandthen {
+    border-left: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+.thesis-card-left {
+    width: 35%;
+    margin: 1rem;
+}
+
+.thesis-card-left img {
+    width: 100%;
+    height: auto;
+}
+
+.thesis-card-right {
+    width: 65%;
+}
+
+.thesis-card-right p {
+    margin-top: 1rem;
+}
+
+
