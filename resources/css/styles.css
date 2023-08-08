@@ -325,6 +325,7 @@ span {
         display: block;
         padding: 2rem 1rem;
         border-top: 1px solid #d3d3d3;
+        border-bottom: 1px solid #d3d3d3;
     }
 
     .start-learning-section-mobile h1 {
@@ -356,6 +357,10 @@ span {
 .thesis-section-desktop {
     padding: 2rem 0 2rem 1.5rem;
     border-bottom: 1px solid #d3d3d3;
+}
+
+.thesis-section-mobile {
+    display: none;
 }
 
 .thesis-section-desktop h1 {
@@ -424,6 +429,31 @@ span {
 
 .thesis-card-right p {
     margin-top: 1rem;
+}
+
+@media only screen and (max-width: 785px) {
+    .thesis-section-desktop {
+        display: none;
+    }
+
+    .thesis-section-mobile {
+        display: block;
+        margin: 2rem 0 1.5rem;
+    }
+
+    .thesis-section-mobile h1 {
+        text-align: center;
+        color: rgb(96, 95, 95);
+    }
+
+    .thesis-section-mobile video {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .thesis-section-mobile p {
+        margin: 1rem 1.5rem 1rem;
+    }
 }
 
 
